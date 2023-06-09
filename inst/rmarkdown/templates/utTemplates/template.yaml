@@ -1,0 +1,4 @@
+name: sql pull from edify
+description: >
+   this will build the libraries and simple pull of sql from edify
+create_dir: FALSE
