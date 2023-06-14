@@ -1,7 +1,7 @@
 ---
 title: "Template Title"
-author: r Sys.getenv('USER')
-date: r Sys.Date()
+author: "`r Sys.getenv('USER')`"
+date: "`r Sys.Date()`"
 output: html_document
 ---
 
@@ -13,10 +13,12 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(here)
 library(utHelpR)
+library(utDataStoR)
 ```
 
 ```{r}
 placeholder_df <- utHelpR::get_data_from_sql_file( file_name = "placeholder.sql", dsn = "edify", context = "project" )
 ```
+
 
 This is a template to pull data from edify
