@@ -1,0 +1,15 @@
+---
+title: "test"
+author: "Craig Demke"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+libraray(tidyverse)
+```
+ this is to see if I can have more than one template per package
