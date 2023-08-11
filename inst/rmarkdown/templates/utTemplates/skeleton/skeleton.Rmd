@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 library(tidyverse)
-library(here)
+library(here) 
 library(utHelpR)
 library(utDataStoR)
 ```
@@ -21,4 +21,4 @@ placeholder_df <- utHelpR::get_data_from_sql_file( file_name = "placeholder.sql"
 ```
 
 
-This is a template to pull data from edify
+This is a template to pull data from edify.
